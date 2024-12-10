@@ -1,12 +1,13 @@
 <script>
   import { IconSparkles, IconTools } from "@tabler/icons-svelte";
   import AppBar from "./comps/AppBar.svelte";
+  import GeneratedDesigns from "./comps/GeneratedDesigns.svelte";
 </script>
 
 <AppBar />
 
-<div class="flex flex-1">
-  <div class="flex w-full max-w-sm flex-col gap-6 bg-backgroundSecondary p-8">
+<div class="flex flex-1 max-h-full overflow-hidden">
+  <div class="flex w-full max-w-sm flex-col gap-6 bg-backgroundSecondary p-8 shrink-0">
     <!-- Plot Dimension s-->
     <div>
       <label class="form-label mb-2">Plot Dimensions</label>
@@ -56,6 +57,7 @@
         <button class="btn flex-1 btn-solid-secondary">3</button>
         <button class="btn flex-1 btn-solid-secondary">4</button>
         <button class="btn flex-1 btn-solid-secondary">5</button>
+        <button class="btn flex-1 btn-solid-secondary">6</button>
       </div>
     </div>
 
@@ -68,7 +70,9 @@
     </button>
   </div>
 
-  <div class="flex-1 flex flex-col items-center pt-32">
+  <!-- ============================= -->
+
+  <!-- <div class="flex-1 flex flex-col items-center pt-32">
     <div class="opacity-50">
       <img src="/gen_neutral.svg" class="w-[500px]" />
     </div>
@@ -80,5 +84,12 @@
         </span>
       </div>
     </div>
-  </div>
+  </div> -->
+
+  <!-- ============================= -->
+
+
+  <GeneratedDesigns />
+
+
 </div>

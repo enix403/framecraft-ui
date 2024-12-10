@@ -1,3 +1,8 @@
+<script>
+  import { IconSparkles, IconTools } from "@tabler/icons-svelte";
+  import GenNeutral from "./GenNeutral.svelte";
+</script>
+
 <div class="flex w-full max-w-sm flex-col gap-6 bg-backgroundSecondary p-8">
   <!-- Plot Dimension s-->
   <div>
@@ -50,6 +55,24 @@
       <button class="btn flex-1 btn-solid-secondary">5</button>
     </div>
   </div>
+
+  <button
+    type="button"
+    class="btn w-full bg-gradient-to-r py-6 from-pink-600 to-blue-500 mt-8 gap-x-2"
+  >
+    <IconSparkles />
+    <strong>Generate</strong>
+  </button>
 </div>
 
-<div class="flex-1">Hello</div>
+<div class="flex-1 flex flex-col items-center pt-32">
+  <div class="opacity-50">
+    <GenNeutral />
+  </div>
+  <div class="alert alert-success max-w-lg mt-10">
+   <IconTools size={28} class="text-success" />
+    <div class="flex flex-col">
+      <span class="text-content2">Tweak the settings to your liking, and hit "Generate"</span>
+    </div>
+  </div>
+</div>

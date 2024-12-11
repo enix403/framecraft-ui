@@ -4,6 +4,7 @@
   import Login from "./pages/Login.svelte";
   import Register from "./pages/Register.svelte";
   import Generate from "./pages/generate/Generate.svelte";
+  import FinalizeDesign from "./pages/generate/FinalizeDesign.svelte";
 </script>
 
 <Router>
@@ -11,4 +12,5 @@
   <Route path="/login" component={Login} />
   <Route path="/register" component={Register} />
   <Route path="/gen" component={Generate} />
+  <Route path="/final" component={FinalizeDesign} />
 </Router>

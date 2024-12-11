@@ -1,4 +1,4 @@
-<div class="flex rounded-xl overflow-hidden m-10 border border-border">
+<div class="flex rounded-xl overflow-hidden m-10 border border-border flex-1">
   <form class="flex w-full max-w-lg flex-col bg-backgroundSecondary sm:p-10">
     <div class="flex w-full flex-col gap-2">
       <p>Sign in with</p>

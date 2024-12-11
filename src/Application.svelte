@@ -6,6 +6,7 @@
   import Generate from "./pages/generate/Generate.svelte";
   import FinalizeDesign from "./pages/generate/FinalizeDesign.svelte";
   import ViewRender from "./pages/generate/ViewRender.svelte";
+  import MyDesigns from "./pages/generate/MyDesigns.svelte";
 </script>
 
 <Router>
@@ -14,5 +15,5 @@
   <Route path="/register" component={Register} />
   <Route path="/gen" component={Generate} />
   <Route path="/final" component={FinalizeDesign} />
-  <Route path="/render" component={ViewRender} />
+  <Route path="/my" component={MyDesigns} />
 </Router>

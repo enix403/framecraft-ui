@@ -15,5 +15,6 @@
   <Route path="/register" component={Register} />
   <Route path="/gen" component={Generate} />
   <Route path="/final" component={FinalizeDesign} />
+  <Route path="/render" component={ViewRender} />
   <Route path="/my" component={MyDesigns} />
 </Router>

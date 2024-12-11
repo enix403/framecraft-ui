@@ -3,6 +3,7 @@
     IconArrowLeft,
     IconChartScatter3d,
     IconCircleX,
+    IconEdit,
     IconPackages
   } from "@tabler/icons-svelte";
   import ConfigSidebar from "./comps/ConfigSidebar.svelte";
@@ -17,6 +18,27 @@
   <div
     class="flex w-full max-w-sm flex-col gap-6 bg-backgroundSecondary p-8 shrink-0"
   >
+    <div class="flex gap-4">
+      <!-- Length -->
+      <div class="form-control relative flex-1">
+        <span
+          class="absolute inset-y-0 left-4 inline-flex items-center text-content3"
+        >
+          <IconEdit size={20} />
+        </span>
+
+        <input
+          class="input w-full max-w-full px-10"
+          placeholder="Name"
+          value="Design 1"
+        />
+      </div>
+
+      <button type="button" class="btn btn-solid-warning gap-x-2">
+        <strong>Save</strong>
+      </button>
+    </div>
+
     <div class="flex w-full overflow-x-auto">
       <table class="table table-compact table-zebra max-w-full">
         <thead>

@@ -2,11 +2,9 @@
   import {
     IconArrowLeft,
     IconChartScatter3d,
-    IconCircleX,
     IconEdit,
     IconPackages
   } from "@tabler/icons-svelte";
-  import ConfigSidebar from "./comps/ConfigSidebar.svelte";
   import GenerationAppLayout from "./layout/GenerationAppLayout.svelte";
 </script>
 

@@ -62,7 +62,7 @@
     type="button"
     class="btn w-full bg-gradient-to-r py-6 from-pink-600 to-blue-500 mt-8 gap-x-2"
   >
-    <IconSparkles />
+    <!-- <IconSparkles /> -->
     <strong>Generate</strong>
   </button>
 </div>

@@ -4,7 +4,7 @@
   import DesignPreview from "./comps/DesignPreview.svelte";
   import GenerationAppLayout from "./layout/GenerationAppLayout.svelte";
 
-  let startPick = true;
+  let startPick = false;
 </script>
 
 <GenerationAppLayout>

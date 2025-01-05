@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [tsconfigPaths(), svelte()],
 
   server: {
-    port: 3000,
+    port: 3001,
     host: '0.0.0.0'
   }
 });
